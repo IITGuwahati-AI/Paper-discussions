@@ -7,4 +7,4 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 
 ## Other papers with resources
 * [Generative Adversarial NetsIan J. Goodfellow,  Jean Pouget-Abadie∗, Mehdi Mirza, Bing Xu, David Warde-Farley,Sherjil Ozair†, Aaron Courville, Yoshua Bengio]
-[paper](https://arxiv.org/pdf/1406.2661.pdf)
+[paper.](https://arxiv.org/pdf/1406.2661.pdf)
