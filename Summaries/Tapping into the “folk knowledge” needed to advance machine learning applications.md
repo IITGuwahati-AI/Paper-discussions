@@ -1,7 +1,11 @@
 # Tapping into the “folk knowledge” needed to advance machine learning applications.
 by Pedro Domingos
+## Quick Overview
+* The article summarizes 12 key lessons that machine learning researchers and practitioners have learned
+* These include pitfalls to avoid, important issues to focus on, and answers to common questions.
+* The article also bursts some common misnomers of machine learning which as a beginner are quite usefull 
 
-### [Presentation](https://docs.google.com/presentation/d/1rffWqYOTdR-YuuSLhfAjsvKfMKL_G4Y5_cIMDddsys4/edit?usp=sharing)
+### [Presentation](https://drive.google.com/file/d/1j49p3EiZ_oaC5TX4lw5fJIx8MyAYQfa2/view?usp=sharing)
 
 ## Resources
 * [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
