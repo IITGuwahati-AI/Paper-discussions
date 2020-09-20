@@ -5,6 +5,7 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 
 * [Deep contextualized word representations. Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer. ACL 2018.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20contextualized%20word%20representations.md)
 * [Mask R-CNN. Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick. ICCV 2017.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Mask%20RCNN.md)
+* [A few useful things to know about machine learning.Pedro Domingos](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/A%20few%20useful%20things%20to%20know%20about%20machine%20learning.md)
 
 ## Other papers with resources
 * Generative Adversarial Nets. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio. NIPS 2014.
