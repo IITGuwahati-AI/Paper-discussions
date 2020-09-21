@@ -5,7 +5,7 @@ by Pedro Domingos
 * These include pitfalls to avoid, important issues to focus on, and answers to common questions.
 * The article also bursts some common misnomers of machine learning which as a beginner are quite usefull 
 
-### [Presentation](https://drive.google.com/file/d/1j49p3EiZ_oaC5TX4lw5fJIx8MyAYQfa2/view?usp=sharing)
+### [Presentation made for the discussion](https://drive.google.com/file/d/1j49p3EiZ_oaC5TX4lw5fJIx8MyAYQfa2/view?usp=sharing)
 
 ## Resources
 * [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
