@@ -18,4 +18,5 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * GloVe: Global Vectors for Word Representation. Jeffrey Pennington, Richard Socher, Christopher Manning. EMNLP 2014. [[Project Page]](https://nlp.stanford.edu/projects/glove/)
 * Efficient Estimation of Word Representations in Vector Space. Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean. ICLR 2013. [[Paper]](https://arxiv.org/pdf/1301.3781.pdf)
 * An overview of gradient descent optimization algorithms. Sebastian Ruder. 2017. [[Paper]](https://arxiv.org/pdf/1609.04747.pdf) [[Blog]](https://ruder.io/optimizing-gradient-descent/index.html) [[Summary]](https://medium.com/iitg-ai/into-the-depths-of-gradient-descent-52cf9ee92d36)
+* Deep Learning in Neural Networks: An Overview. 2014. [[Paper]](https://arxiv.org/pdf/1404.7828.pdf) [[Summary]](shorturl.at/uJKPZ)
 
