@@ -6,6 +6,7 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * [Deep contextualized word representations. Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer. ACL 2018.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20contextualized%20word%20representations.md)
 * [Mask R-CNN. Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick. ICCV 2017.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Mask%20RCNN.md)
 * [A few useful things to know about machine learning. Pedro Domingos. 2012.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/A%20few%20useful%20things%20to%20know%20about%20machine%20learning.md)
+* [Deep Learning in Neural Networks: An Overview. 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20Learning%20in%20Neural%20Networks:%20An%20Overview.md) 
 
 ## Other papers with resources
 * Generative Adversarial Nets. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio. NIPS 2014.
@@ -18,5 +19,5 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * GloVe: Global Vectors for Word Representation. Jeffrey Pennington, Richard Socher, Christopher Manning. EMNLP 2014. [[Project Page]](https://nlp.stanford.edu/projects/glove/)
 * Efficient Estimation of Word Representations in Vector Space. Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean. ICLR 2013. [[Paper]](https://arxiv.org/pdf/1301.3781.pdf)
 * An overview of gradient descent optimization algorithms. Sebastian Ruder. 2017. [[Paper]](https://arxiv.org/pdf/1609.04747.pdf) [[Blog]](https://ruder.io/optimizing-gradient-descent/index.html) [[Summary]](https://medium.com/iitg-ai/into-the-depths-of-gradient-descent-52cf9ee92d36)
-* Deep Learning in Neural Networks: An Overview. 2014. [[Paper]](https://arxiv.org/pdf/1404.7828.pdf) [[Summary]](https://docs.google.com/presentation/d/1BPHC3gST5D6r0rOZTuZWENYt4ndGc-O0c1Pwibukrw0/edit?fbclid=IwAR30A92bEtW7Zi83_qoYaOKTKzp6cMkGXj2R_hF2RPyXCQR1nH03wW51CEg#slide=id.g9d6f030de7_0_0)
+
 
