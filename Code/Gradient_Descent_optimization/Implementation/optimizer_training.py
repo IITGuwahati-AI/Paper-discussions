@@ -13,11 +13,20 @@ from optimizing_functions import Batch_optimization
 parser = argparse.ArgumentParser()
 parser.add_argument("-op","--optimizer",help="Select the optimizer that you want to use for training\n Available are  ['Batch','Stochastic','MiniBatch','Momentum','Adam','AdaGrad','AdaDelta', 'Nadam','AdaMax','Nesterov','RMSProp']")
 
+Epoch_help_string = "Select the number of epochs to use, Recommended and default number of epochs : \nBatch - 10000\nStochastic-2"
+parser.add_argument("-ep","--epochs", help=Epoch_help_string, type=int, default=0)
+
 args = parser.parse_args()
 
 optimizing_fn_name = args.optimizer + '_optimization'
 optimizing_fn = locals()[optimizing_fn_name]
-
+epochs = args.epochs
+# setting defaults
+if epochs == 0:
+    if args.optimizer == 'Batch':
+        epochs = 12000
+    if args.optimizer  == 'Stochastic':
+        epochs = 2
 
 # loading the dataset
 cal = datasets.fetch_california_housing()
@@ -43,7 +52,7 @@ print(f"Training")
 final_theta, batch_history = training_fn(X = X_train, 
                                     y = y_train, 
                                     opt_fn = optimizing_fn,
-                                    eps = 12000, 
+                                    eps = epochs, 
                                     lr = 0.001, 
                                     extra_params = {})
 

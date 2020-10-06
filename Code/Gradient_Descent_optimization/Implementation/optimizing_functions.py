@@ -26,3 +26,36 @@ def Batch_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_f
         'thetas': theta_history
     }
     return theta, history
+
+
+def Stochastic_optimization(X, y, theta, epochs, learning_rate, extra_params = {}):
+    # history storing
+    cost_history = []
+    training_errors = []
+
+    for ep in range(epochs):
+
+        print(f"\nStarting epoch {ep+1}")
+
+        # shuffling the arrays
+        ids = np.arange(X.shape[0])
+        np.random.shuffle(ids)
+        X = X[ids,:]
+        y = y[ids]
+
+        for i in (range(X.shape[0])):
+            grad = gradient_calc(theta, X[i, :].reshape(1,-1), y[i])
+            theta = theta - (learning_rate * grad)
+
+            if i%5000 == 0:
+                print(f"Processed {i+1}/{X.shape[0]} examples, with training error : {find_mse(theta, X, y)} ")
+
+            cost_history.append(cost_function(theta, X, y))
+            training_errors.append(find_mse(theta, X, y))
+
+
+    history = {
+        'costs': cost_history,
+        'errors': training_errors
+    }
+    return theta, history
