@@ -16,9 +16,8 @@
     * [Adamax](###Adamax)
     * [Nadam](###Nadam)
 - ### [Extras](##Extras)
+- ### [References](##References)
     
-
-
 
 
 ## File Structure
@@ -196,6 +195,10 @@ The following Algorithms are implemented here -
 *   If you want to change the hyperparams of any optimizer, you will find the default arguments in `optimzer_training.py` file, you can change them to your use.
 * Feel free to explore the well documented code.
 
-
+## References
+* Paper Link - https://arxiv.org/pdf/1609.04747.pdf
+* Some Useful Blogs
+   - https://github.com/harshraj11584/Paper-Implementation-Overview-Gradient-Descent-Optimization-Sebastian-Ruder
+   - https://github.com/ilguyi/optimizers.numpy
 
    
