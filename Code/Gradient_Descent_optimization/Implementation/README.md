@@ -6,7 +6,7 @@ The following Algorithms are implemented here -
 
     Here's the cost graph obtained using The code implemented - 
 
-    ![batch]()
+    ![batch](./graphs/Batch.png)
 
 2.  ### Stochastic Gradient Descent
     Stochastic gradient descent (SGD) in contrast performs a parameter update for each training example
