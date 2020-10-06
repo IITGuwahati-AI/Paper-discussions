@@ -33,9 +33,9 @@
     Contains extra functions like cost calculation, gradient calculation and graph plotting.
 
 ## Dataset
-The Dataset used here is IRIS Flower Classification Dataset loaded from sklearn package.
+The Dataset used here is California Housing Dataset loaded from sklearn package.
 
-We use the standardized House age column of the dataset to predict the Median house value.
+We use the standardized House age column of the dataset to predict the Median house price.
 
 ## Usage
 Follow the steps to use the code.
