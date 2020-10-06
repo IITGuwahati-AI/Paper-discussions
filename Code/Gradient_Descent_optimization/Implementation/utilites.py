@@ -46,7 +46,7 @@ def training_fn(X, y, opt_fn, eps, lr, extra_params = {}):
 def plot_cost_graph(costs):
 
     plt.plot(costs)
-    plt.title('TRAINING COST GRAPH\n', fontsize=20, color='white')
-    plt.xlabel('Epochs', fontsize=13, color='white')
-    plt.ylabel('Costs', fontsize=13, color='white')
+    plt.title('TRAINING COST GRAPH', fontsize=20, color='red')
+    plt.xlabel('Epochs', fontsize=13, color='green')
+    plt.ylabel('Costs', fontsize=13, color='green')
     plt.show()

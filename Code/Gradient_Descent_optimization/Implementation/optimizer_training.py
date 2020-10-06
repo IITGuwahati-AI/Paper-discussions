@@ -7,26 +7,30 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
 from utilites import gradient_calc, cost_function, training_fn, plot_cost_graph, find_mse
-from optimizing_functions import Batch_optimization
+from optimizing_functions import *
 
 # Argument parser
 parser = argparse.ArgumentParser()
 parser.add_argument("-op","--optimizer",help="Select the optimizer that you want to use for training\n Available are  ['Batch','Stochastic','MiniBatch','Momentum','Adam','AdaGrad','AdaDelta', 'Nadam','AdaMax','Nesterov','RMSProp']")
 
-Epoch_help_string = "Select the number of epochs to use, Recommended and default number of epochs : \nBatch - 10000\nStochastic-2"
-parser.add_argument("-ep","--epochs", help=Epoch_help_string, type=int, default=0)
-
 args = parser.parse_args()
 
 optimizing_fn_name = args.optimizer + '_optimization'
 optimizing_fn = locals()[optimizing_fn_name]
-epochs = args.epochs
-# setting defaults
-if epochs == 0:
-    if args.optimizer == 'Batch':
-        epochs = 12000
-    if args.optimizer  == 'Stochastic':
-        epochs = 2
+
+# setting values
+if args.optimizer == 'Batch':
+    epochs = 12000
+    lr = 0.001
+    extra_params = {}
+if args.optimizer  == 'Stochastic':
+    epochs = 2
+    lr = 0.001
+    extra_params = {}
+if args.optimizer == 'MiniBatch':
+    epochs = 5
+    lr = 0.02
+    extra_params = {'batch_size':100}
 
 # loading the dataset
 cal = datasets.fetch_california_housing()
@@ -53,8 +57,8 @@ final_theta, batch_history = training_fn(X = X_train,
                                     y = y_train, 
                                     opt_fn = optimizing_fn,
                                     eps = epochs, 
-                                    lr = 0.001, 
-                                    extra_params = {})
+                                    lr = lr, 
+                                    extra_params = extra_params)
 
 # TO TEST ON TEST SET
 print(f"Test Mean squared Error = {find_mse(final_theta, X_test, y_test)}")
