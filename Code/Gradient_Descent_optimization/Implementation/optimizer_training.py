@@ -11,7 +11,7 @@ from optimizing_functions import *
 
 # Argument parser
 parser = argparse.ArgumentParser()
-parser.add_argument("-op","--optimizer",help="Select the optimizer that you want to use for training\n Available are  ['Batch','Stochastic','MiniBatch','Momentum','Adam','AdaGrad','AdaDelta', 'Nadam','AdaMax','Nesterov','RMSProp']")
+parser.add_argument("-op","--optimizer",help="Select the optimizer that you want to use for training\n Available are  ['Batch','Stochastic','MiniBatch','Momentum','Adam','Adagrad','Adadelta', 'Nadam','AdaMax','Nesterov','RMSProp']")
 
 args = parser.parse_args()
 
@@ -31,6 +31,40 @@ if args.optimizer == 'MiniBatch':
     epochs = 5
     lr = 0.02
     extra_params = {'batch_size':100}
+if args.optimizer == 'Momentum':
+    epochs = 2
+    lr = 0.02
+    extra_params = {'gamma':0.9,'btch_sz':100}
+if args.optimizer == 'Nesterov':
+    epochs = 10
+    lr = 0.001
+    extra_params = {'gamma':0.9, 'btch_sz':100}
+if args.optimizer == 'RMSprop':
+    epochs = 10
+    lr = 0.001
+    extra_params = {'beta':0.9, 'btch_sz':100, 'epsilon':1e-8}
+if args.optimizer == 'Adagrad':
+    epochs = 20
+    lr = 0.1
+    extra_params = {'epsilon':1e-8, 'btch_sz':32}
+if args.optimizer == 'Adadelta':
+    epochs = 25
+    lr = 0.001
+    extra_params = {'beta':0.9, 'btch_sz':32, 'epsilon':1e-8}
+if args.optimizer == 'Adam':
+    epochs =1000
+    lr = 0.01
+    extra_params = {'beta1':0.9, 'beta2':0.99}
+if args.optimizer == 'Nadam':
+    epochs =1000
+    lr = 0.01
+    extra_params = {'beta1':0.9, 'beta2':0.99}
+if args.optimizer == 'Adamax':
+    epochs =1000
+    lr = 0.01
+    extra_params = {'beta1':0.9, 'beta2':0.99,'p':10e9}
+
+
 
 # loading the dataset
 cal = datasets.fetch_california_housing()
