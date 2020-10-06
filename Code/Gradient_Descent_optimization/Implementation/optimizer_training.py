@@ -16,8 +16,12 @@ parser.add_argument("-op","--optimizer",help="Select the optimizer that you want
 args = parser.parse_args()
 
 optimizing_fn_name = args.optimizer + '_optimization'
-optimizing_fn = locals()[optimizing_fn_name]
-
+try:
+    optimizing_fn = locals()[optimizing_fn_name]
+except KeyError:
+    print("\nInvalid optimizer choosen\n")
+    print("Select the optimizer that you want to use for training\n Available are  ['Batch','Stochastic','MiniBatch','Momentum','Adam','Adagrad','Adadelta', 'Nadam','AdaMax','Nesterov','RMSprop']")
+    quit()
 # setting values
 # BATCH GRADIENT DESCENT DEFAULTS
 if args.optimizer == 'Batch':
@@ -78,7 +82,7 @@ if args.optimizer == 'Nadam':
     epochs =1000
     lr = 0.01
     extra_params = {'beta1':0.9, 'beta2':0.99}
-    
+
 # ADAMAX DESCENT DEFAULTS
 if args.optimizer == 'Adamax':
     epochs =1000
