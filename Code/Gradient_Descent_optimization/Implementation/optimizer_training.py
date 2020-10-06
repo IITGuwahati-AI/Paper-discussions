@@ -19,46 +19,67 @@ optimizing_fn_name = args.optimizer + '_optimization'
 optimizing_fn = locals()[optimizing_fn_name]
 
 # setting values
+# BATCH GRADIENT DESCENT DEFAULTS
 if args.optimizer == 'Batch':
     epochs = 12000
     lr = 0.001
     extra_params = {}
+
+# STOCHASTIC GRADIENT DESCENT DEFAULTS
 if args.optimizer  == 'Stochastic':
     epochs = 2
     lr = 0.001
     extra_params = {}
+
+# MINI BATCH GRADIENT DESCENT DEFAULTS
 if args.optimizer == 'MiniBatch':
     epochs = 5
     lr = 0.02
     extra_params = {'batch_size':100}
+
+# MOMENTUM GRADIENT DESCENT DEFAULTS
 if args.optimizer == 'Momentum':
     epochs = 2
     lr = 0.02
     extra_params = {'gamma':0.9,'btch_sz':100}
+
+# NESTEROV ACCELERATED DESCENT DEFAULTS
 if args.optimizer == 'Nesterov':
     epochs = 10
     lr = 0.001
     extra_params = {'gamma':0.9, 'btch_sz':100}
+
+# RMS PROP DESCENT DEFAULTS
 if args.optimizer == 'RMSprop':
     epochs = 10
     lr = 0.001
     extra_params = {'beta':0.9, 'btch_sz':100, 'epsilon':1e-8}
+
+# ADAGRAD DESCENT DEFAULTS
 if args.optimizer == 'Adagrad':
     epochs = 20
     lr = 0.1
     extra_params = {'epsilon':1e-8, 'btch_sz':32}
+
+# ADADELTA DESCENT DEFAULTS
 if args.optimizer == 'Adadelta':
     epochs = 25
     lr = 0.001
     extra_params = {'beta':0.9, 'btch_sz':32, 'epsilon':1e-8}
+
+# ADAM DESCENT DEFAULTS
 if args.optimizer == 'Adam':
     epochs =1000
     lr = 0.01
     extra_params = {'beta1':0.9, 'beta2':0.99}
+
+# NADAM DESCENT DEFAULTS
 if args.optimizer == 'Nadam':
     epochs =1000
     lr = 0.01
     extra_params = {'beta1':0.9, 'beta2':0.99}
+    
+# ADAMAX DESCENT DEFAULTS
 if args.optimizer == 'Adamax':
     epochs =1000
     lr = 0.01

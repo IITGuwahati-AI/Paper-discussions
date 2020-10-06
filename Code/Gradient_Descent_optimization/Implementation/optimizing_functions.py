@@ -27,7 +27,7 @@ def Batch_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_f
     }
     return theta, history
 
-
+# STOCHASTIC
 def Stochastic_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
@@ -60,7 +60,7 @@ def Stochastic_optimization(X, y, theta, epochs, learning_rate, gradient_calc, c
     }
     return theta, history
 
-
+# MINI BATCH
 def MiniBatch_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
@@ -101,7 +101,7 @@ def MiniBatch_optimization(X, y, theta, epochs, learning_rate, gradient_calc, co
     }
     return theta, history
 
-
+# MOMENTUM
 def Momentum_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
@@ -146,6 +146,7 @@ def Momentum_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cos
     }
     return theta, history
 
+# NESTEROV
 def Nesterov_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
@@ -185,7 +186,7 @@ def Nesterov_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cos
     }
     return theta, history
 
-
+# RMS PROP
 def RMSprop_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
@@ -227,7 +228,7 @@ def RMSprop_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost
     }
     return theta, history
 
-
+# ADAGRAD
 def Adagrad_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     
     cost_history = []
@@ -270,7 +271,7 @@ def Adagrad_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost
 
     return theta, history
 
-
+# ADADELTA
 def Adadelta_optimization(X, y, theta, epochs, learning_rate, gradient_calc, cost_function, find_mse, extra_params = {}):
     # history storing
     cost_history = []
