@@ -196,9 +196,6 @@ The following Algorithms are implemented here -
 * Feel free to explore the well documented code.
 
 ## References
-* Paper Link - https://arxiv.org/pdf/1609.04747.pdf
-* Some Useful Blogs
-   - https://github.com/harshraj11584/Paper-Implementation-Overview-Gradient-Descent-Optimization-Sebastian-Ruder
-   - https://github.com/ilguyi/optimizers.numpy
+* [Research Paper](https://arxiv.org/pdf/1609.04747.pdf)
 
    
