@@ -47,6 +47,6 @@ def plot_cost_graph(costs):
 
     plt.plot(costs)
     plt.title('TRAINING COST GRAPH', fontsize=20, color='red')
-    plt.xlabel('Epochs', fontsize=13, color='green')
-    plt.ylabel('Steps', fontsize=13, color='green')
+    plt.xlabel('Steps', fontsize=13, color='green')
+    plt.ylabel('Cost', fontsize=13, color='green')
     plt.show()
