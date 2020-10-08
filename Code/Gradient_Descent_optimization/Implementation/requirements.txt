@@ -1,0 +1,4 @@
+numpy==1.18.5
+scikit-learn==0.19.1
+matplotlib==3.2.1
+argparse==1.4.0
