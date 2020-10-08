@@ -1,9 +1,9 @@
 # Optimizers' Implementation Code
 
 ## Table of contents
-- ### [File Structure](##filestruct)
-- ### [Dataset](##dataset)
-- ### [Usage](##usage)
+- ### [File Structure](#filestruct)
+- ### [Dataset](#dataset)
+- ### [Usage](#usage)
     * [Batch Gradient Descent](###Batch-Gradient-Descent)
     * [Stochastic Gradient Descent](###Stochastic-Gradient-Descent)
     * [Mini Batch Gradient Descent](###Mini-Batch-Gradient-Descent)
