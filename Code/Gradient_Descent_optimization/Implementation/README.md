@@ -90,7 +90,7 @@ The following Algorithms are implemented here -
     `python3 optimizer_training.py --optimizer MiniBatch`
 
 4.  ### Momentum <a name="moment"></a>
-    Momentum [17] is a method that helps accelerate SGD in the relevant direction and dampens
+    Momentum is a method that helps accelerate SGD in the relevant direction and dampens
     oscillations of the Gradient update. It does this by adding a fraction γ of the update vector of the
     past time step to the current update vector.
 
@@ -150,7 +150,7 @@ The following Algorithms are implemented here -
     `python3 optimizer_training.py --optimizer RMSprop`
 
 9.  ### Adam <a name="adam"></a>
-    Adaptive Moment Estimation (Adam) [10] is another method that computes adaptive learning rates
+    Adaptive Moment Estimation (Adam) is another method that computes adaptive learning rates
     for each parameter. In addition to storing an exponentially decaying average of past squared gradients vt like Adadelta and RMSprop, Adam also keeps an exponentially decaying average of past gradients mt, similar to momentum.
 
     Here's the cost graph obtained using the code implemented - 
