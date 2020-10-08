@@ -1,9 +1,9 @@
 # Optimizers' Implementation Code
 
 ## Table of contents
-- ### [File Structure](##File-Structure)
-- ### [Dataset](##Dataset)
-- ### [Usage](##Usage)
+- ### [File Structure](##filestruct)
+- ### [Dataset](##dataset)
+- ### [Usage](##usage)
     * [Batch Gradient Descent](###Batch-Gradient-Descent)
     * [Stochastic Gradient Descent](###Stochastic-Gradient-Descent)
     * [Mini Batch Gradient Descent](###Mini-Batch-Gradient-Descent)
@@ -20,7 +20,7 @@
     
 
 
-## File Structure
+## File Structure<a name="filestruct"></a>
 1. `optimizer_training.py`  
     
     Contains the code for training the optimizers
@@ -32,12 +32,12 @@
 
     Contains extra functions like cost calculation, gradient calculation and graph plotting.
 
-## Dataset
+## Dataset<a name="dataset"></a>
 The Dataset used here is California Housing Dataset loaded from sklearn package.
 
 We use the standardized House age column of the dataset to predict the Median house price.
 
-## Usage
+## Usage<a name="usage"></a>
 Follow the steps to use the code.
 * Clone the Repository.
 * Install the Requirements mentioned in the requirements.txt
