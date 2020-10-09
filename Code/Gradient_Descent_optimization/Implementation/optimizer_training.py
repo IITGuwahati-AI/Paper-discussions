@@ -55,19 +55,19 @@ if args.optimizer == 'Nesterov':
 
 # RMS PROP DESCENT DEFAULTS
 if args.optimizer == 'RMSprop':
-    epochs = 10
+    epochs = 20
     lr = 0.001
     extra_params = {'beta':0.9, 'btch_sz':100, 'epsilon':1e-8}
 
 # ADAGRAD DESCENT DEFAULTS
 if args.optimizer == 'Adagrad':
-    epochs = 20
+    epochs = 35
     lr = 0.1
     extra_params = {'epsilon':1e-8, 'btch_sz':32}
 
 # ADADELTA DESCENT DEFAULTS
 if args.optimizer == 'Adadelta':
-    epochs = 25
+    epochs = 40
     lr = 0.001
     extra_params = {'beta':0.9, 'btch_sz':32, 'epsilon':1e-8}
 
