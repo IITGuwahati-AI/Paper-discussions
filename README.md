@@ -7,6 +7,7 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * [Mask R-CNN. Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick. ICCV 2017.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Mask%20RCNN.md)
 * [A few useful things to know about machine learning. Pedro Domingos. 2012.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/A%20few%20useful%20things%20to%20know%20about%20machine%20learning.md)
 * [Deep Learning in Neural Networks: An Overview. 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20Learning%20in%20Neural%20Networks:%20An%20Overview.md)
+* [Fast R-CNN. Ross Girshick. ICCV 2015.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Fast%20RCNN.md)
 
 ## Papers with code and resources
 * An overview of gradient descent optimization algorithms. Sebastian Ruder. 2017. [[Paper]](https://arxiv.org/pdf/1609.04747.pdf) [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/tree/master/Code/Gradient_Descent_optimization/Presentation) [[Summary]](https://medium.com/iitg-ai/into-the-depths-of-gradient-descent-52cf9ee92d36)  [[Code]](https://github.com/IITGuwahati-AI/Paper-discussions/tree/master/Code/Gradient_Descent_optimization/Implementation)
