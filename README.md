@@ -8,9 +8,11 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * [A few useful things to know about machine learning. Pedro Domingos. 2012.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/A%20few%20useful%20things%20to%20know%20about%20machine%20learning.md)
 * [Deep Learning in Neural Networks: An Overview. 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20Learning%20in%20Neural%20Networks:%20An%20Overview.md)
 * [Fast R-CNN. Ross Girshick. ICCV 2015.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Fast%20RCNN.md)
+* [Visualizing and Understanding Convolutional Networks. Matthew D. Zeiler, Rob Fergus. ECCV 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Visualization%20of%20CNNs%20using%20Deconvet.md)
 
 ## Papers with code and resources
 * An overview of gradient descent optimization algorithms. Sebastian Ruder. 2017. [[Paper]](https://arxiv.org/pdf/1609.04747.pdf) [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/tree/master/Code/Gradient_Descent_optimization/Presentation) [[Summary]](https://medium.com/iitg-ai/into-the-depths-of-gradient-descent-52cf9ee92d36)  [[Code]](https://github.com/IITGuwahati-AI/Paper-discussions/tree/master/Code/Gradient_Descent_optimization/Implementation)
+* You Only Look Once: Unified, Real-Time Object Detection. Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi. CVPR 2016. [[Paper]](https://arxiv.org/pdf/1506.02640.pdf) [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Code/YOLO_object_detection/Presentation%20Slides.pdf) [[Code]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Code/YOLO_object_detection/Implementation.ipynb)
 * A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019. [[Paper]](https://arxiv.org/pdf/1812.04948v3.pdf) [[Code]](https://github.com/IITGuwahati-AI/StyleGAN)
 * Neural Turing Machines. Alex Graves, Greg Wayne, Ivo Danihelka. 2014. [[Paper]](https://arxiv.org/pdf/1410.5401.pdf) [[Code]](https://github.com/IITGuwahati-AI/Neural-Turing-Machine)
 
