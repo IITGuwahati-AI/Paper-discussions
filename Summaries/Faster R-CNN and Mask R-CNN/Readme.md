@@ -6,7 +6,7 @@
  - The use of novel pyramid of anchors is the key factors which enables the sharing of convolutional layers between the two networks.
  -Alternate Training is used for the unified network of Region Proposal Network and Fast R-CNN detection network.
  
- *The slides used in the pressentation of the paper can be found in the folder with Faster_RCNN.pdf name.*
+ *The slides used in the pressentation of the paper can be found in the folder with Faster_RCNN.pdf name and the paper used with Faster_RCNN_Paper.pdf *
  
  ## Mask R-CNN
  *Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick,*
@@ -18,6 +18,6 @@
  - The code for Mask R-CNN can be found at :
       - [Code](https://github.com/matterport/Mask_RCNN)
   
- *The slides use in the presentation for the paper can be found in the folder under the name Mask_RCNN.pdf*
+ *The slides use in the presentation for the paper can be found in the folder under the name Mask_RCNN.pdf and the paper used with Mask_RCNN_Paper.pdf*
  
  
