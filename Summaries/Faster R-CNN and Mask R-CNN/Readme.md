@@ -6,7 +6,7 @@
  - The use of novel pyramid of anchors is the key factors which enables the sharing of convolutional layers between the two networks.
  -Alternate Training is used for the unified network of Region Proposal Network and Fast R-CNN detection network.
  
- *The slides used in the pressentation of the paper can be found in the folder with Faster_RCNN.pdf name and the paper used with Faster_RCNN_Paper.pdf *
+ *The slides used in the pressentation of the paper can be found in the folder with Faster_RCNN.pdf name and the paper used with Faster_RCNN_Paper.pdf*
  
  ## Mask R-CNN
  *Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick,*
