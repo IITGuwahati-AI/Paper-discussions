@@ -8,6 +8,7 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * [A few useful things to know about machine learning. Pedro Domingos. 2012.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/A%20few%20useful%20things%20to%20know%20about%20machine%20learning.md)
 * [Deep Learning in Neural Networks: An Overview. 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Deep%20Learning%20in%20Neural%20Networks:%20An%20Overview.md)
 * [Fast R-CNN. Ross Girshick. ICCV 2015.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Fast%20RCNN.md)
+* [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun. NIPS 2015.](https://github.com/IITGuwahati-AI/Paper-discussions/tree/master/Summaries/Faster%20R-CNN%20and%20Mask%20R-CNN)
 * [Visualizing and Understanding Convolutional Networks. Matthew D. Zeiler, Rob Fergus. ECCV 2014.](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/Visualization%20of%20CNNs%20using%20Deconvet.md)
 
 ## Papers with code and resources
