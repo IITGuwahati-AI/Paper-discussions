@@ -14,7 +14,7 @@
 
    
  
-> [**Presentation made for the discussion**](https://iitgoffice-my.sharepoint.com/:p:/g/personal/vbakshi_iitg_ac_in/EZv1asVGWlJLuLarYn2EZKIBkd6WXCfHXhUp9p0wgF2y_Q?e=fCVPDA)
+> [**Presentation made for the discussion**](https://drive.google.com/file/d/1Hwi-Iy1tgr-N3zHoRFh0pLE5PN6cuk3s/view?usp=sharing)
 
 
 > **Resources**
