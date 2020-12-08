@@ -17,7 +17,7 @@ Papers discussed in the meetings of IITG.ai with summaries and resources.
 * You Only Look Once: Unified, Real-Time Object Detection. Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi. CVPR 2016. [[Paper]](https://arxiv.org/pdf/1506.02640.pdf) [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Code/YOLO_object_detection/Presentation%20Slides.pdf) [[Code]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Code/YOLO_object_detection/Implementation.ipynb)
 * A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019. [[Paper]](https://arxiv.org/pdf/1812.04948v3.pdf) [[Code]](https://github.com/IITGuwahati-AI/StyleGAN)
 * Neural Turing Machines. Alex Graves, Greg Wayne, Ivo Danihelka. 2014. [[Paper]](https://arxiv.org/pdf/1410.5401.pdf) [[Code]](https://github.com/IITGuwahati-AI/Neural-Turing-Machine)
-* GloVe: Global Vectors for Word Representation. Jeffrey Pennington, Richard Socher, Christopher Manning. EMNLP 2014. [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/GloVe%20Representation.md)[[Project Page]](https://nlp.stanford.edu/projects/glove/) [[Code]](https://colab.research.google.com/drive/1J75hTE5UFPKeO0GcV8os9YTILhptYDrY?usp=sharing)
+* GloVe: Global Vectors for Word Representation. Jeffrey Pennington, Richard Socher, Christopher Manning. EMNLP 2014. [[Slides]](https://github.com/IITGuwahati-AI/Paper-discussions/blob/master/Summaries/GloVe%20Representation.md) [[Project Page]](https://nlp.stanford.edu/projects/glove/) [[Code]](https://colab.research.google.com/drive/1J75hTE5UFPKeO0GcV8os9YTILhptYDrY?usp=sharing)
 
 
 ## Other papers with resources
